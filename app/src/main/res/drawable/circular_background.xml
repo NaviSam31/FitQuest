@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Background color for the circular container -->
+    <solid android:color="#ADD8E6" /> <!-- Light Blue color -->
+
+    <!-- You can adjust this stroke if you want a border around the circle -->
+    <stroke
+        android:width="2dp"
+        android:color="#000000" /> <!-- Black border -->
+
+</shape>

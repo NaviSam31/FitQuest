@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!-- Background circle (inactive part of the progress bar) -->
+    <item android:id="@android:id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <shape android:shape="ring"
+            android:thicknessRatio="0.15"
+            android:useLevel="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <solid android:color="#D3D3D3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" /> <!-- Light gray color for the background -->
+        </shape>
+    </item>
+
+    <!-- Progress circle (active part of the progress bar) -->
+    <item android:id="@android:id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <clip android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <shape android:shape="ring"
+                android:thicknessRatio="0.15"
+                android:useLevel="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <solid android:color="#00BCD4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" /> <!-- Blue progress color -->
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>
+

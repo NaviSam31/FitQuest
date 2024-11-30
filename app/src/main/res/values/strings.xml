@@ -1,0 +1,22 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Fitness Task Manager</string>
+
+    <!-- Labels and Messages -->
+    <string name="add_task_log">Add Fitness Task</string>
+    <string name="task_goal">Daily Fitness Goal</string>
+    <string name="task_logged">Fitness Task Logged</string>
+    <string name="task_description">Fitness Task Description</string>
+    <string name="task_progress">Progress: %1$d/%2$d fitness tasks completed</string>
+
+    <!-- Notifications -->
+    <string name="notification_title">Fitness Task Reminder</string>
+    <string name="notification_message">Time to start your fitness task!</string>
+
+    <!-- GraphActivity Strings -->
+    <string name="task_history">Fitness Task Completion History</string>
+
+    <!-- Error and Success Messages -->
+    <string name="task_log_added">Fitness task added!</string>
+    <string name="error_message">An error occurred. Please try again.</string>
+</resources>
